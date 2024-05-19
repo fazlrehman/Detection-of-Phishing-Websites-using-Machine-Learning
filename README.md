@@ -1,1 +1,7 @@
-# Detection-of-Phishing-Websites-using-Machine-Learning
+Phishing websites are a prevalent form of cyberattack that deceive users into divulging sensitive information by mimicking legitimate websites. This project aims to develop and evaluate machine learning models to detect phishing websites based on extracted URL and website content features. Using a dataset comprising both phishing and benign URLs, we implemented and compared various supervised machine learning algorithms, including Decision Tree, Random Forest, Multilayer Perceptrons (MLPs), XGBoost, Autoencoder Neural Network, and Support Vector Machines (SVM).
+
+The data preprocessing involved cleaning, shuffling, and splitting the dataset to ensure balanced training and testing sets. We utilized techniques such as feature importance analysis and correlation heatmaps to understand the data distribution and relationships between features.
+
+Our results demonstrated that the XGBoost classifier achieved the highest accuracy on the test dataset, outperforming other models. This model was subsequently saved for future use, showcasing its potential for real-world deployment in cybersecurity applications.
+
+The project was conducted using Google Collaboratory, leveraging Python libraries such as Pandas, Scikit-learn, Keras, and XGBoost. The findings indicate that machine learning models can effectively identify phishing websites, providing a valuable tool for enhancing internet security. Further research may explore additional features and advanced model architectures to improve detection accuracy and robustness.
